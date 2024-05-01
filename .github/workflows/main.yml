@@ -1,7 +1,7 @@
 name: Learn_Action
 on: push
- jobs:
-  my-jobs:
+jobs:
+ my-jobs:
   run-on: ubuntu-latest
   steps:
    - name: my-step
