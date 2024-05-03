@@ -2,7 +2,7 @@ name: Learn_Action
 on: push
 jobs:
  my-jobs:
-  run-on: ubuntu-latest
-  steps:
-   - name: my-step
-     run: echo "Hello!! Run Git Hub action"
+   runs-on: ubuntu-latest 
+   steps:
+    - name: my-step
+      run: echo "Hello!! Run Git Hub action"
